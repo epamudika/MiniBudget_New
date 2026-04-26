@@ -64,3 +64,7 @@ struct OnboardingTextField: View {
             .keyboardType(keyboardType)
     }
 }
+
+struct AppColors {
+    static let primaryGreen = Color.green
+}
