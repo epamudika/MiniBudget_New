@@ -204,26 +204,7 @@ struct DashboardView: View {
     }
 }
 
-//Supporting Theme & Data (Required to run)
-struct AppTheme {
-    static let background = Color(red: 0.98, green: 0.99, blue: 0.98)
-    static let primaryGreen = Color(red: 0.13, green: 0.58, blue: 0.29)
-    static let lightGreen = Color(red: 0.40, green: 0.80, blue: 0.50)
-    static let paleGreen = Color(red: 0.90, green: 0.96, blue: 0.92)
-    static let cardWhite = Color.white
-    static let textPrimary = Color.black
-    static let textSecondary = Color.gray
-    static let textCaption = Color.gray.opacity(0.8)
-}
 
-struct MockGoal {
-    let dailyAmount: Double
-    let remainingBalance: Double
-}
-
-struct MockData {
-    static let goal = MockGoal(dailyAmount: 500, remainingBalance: 2500)
-}
 
 #Preview {
     DashboardView()
