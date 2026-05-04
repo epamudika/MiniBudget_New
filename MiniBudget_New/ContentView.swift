@@ -12,13 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             
-            AllSetView(
-                userName: "Erandi",
-                dailyAmount: 50,
-                targetAmount: 5000,
-                reminderTime: Date(),
-                reminderFrequency: "Daily"
-            )
+            DashboardView()
             
         }
     }
