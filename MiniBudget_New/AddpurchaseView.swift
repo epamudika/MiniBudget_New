@@ -20,7 +20,7 @@ enum PurchaseCategory: String, CaseIterable {
 //AddPurchaseView
 struct AddPurchaseView: View {
 
-    // MARK: - State (form fields)
+    // State (form fields)
     @State private var itemName      : String           = ""
     @State private var priceText     : String           = ""
     @State private var selectedCat   : PurchaseCategory = .leisure  // Default = Leisure (green)

@@ -86,7 +86,7 @@ struct SetGoalView: View {
                         targetAmount: selectedTargetAmount
                     ).navigationBarBackButtonHidden(true)
                 ) {
-                    PrimaryButton(title: "Set Reminder  →")
+                    PrimaryButton(title: "Start Saving  →")
                 }
                 .padding(.horizontal, 24)
                 .padding(.top, 36)
