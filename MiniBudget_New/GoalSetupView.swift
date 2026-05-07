@@ -7,7 +7,6 @@
 import SwiftUI
 
 
-
 struct GoalSetupView: View {
     let userName: String
     
@@ -147,4 +146,3 @@ private struct GoalChip: View {
 #Preview {
     GoalSetupView(userName: "Erandi")
 }
-

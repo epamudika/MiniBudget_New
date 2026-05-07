@@ -27,7 +27,7 @@ struct AllSetView: View {
             
             HStack {
                 Spacer()
-                Image("All_Set_image")
+                Image("img_allSet")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 200, height: 200)
