@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+//import Firebase
+
 
 @main
 struct MiniBudget_NewApp: App {
@@ -15,3 +17,16 @@ struct MiniBudget_NewApp: App {
         }
     }
 }
+//@main
+//struct MyApp: App {
+
+  //  init() {
+    //    FirebaseApp.configure()
+    //}
+
+    //var body: some Scene {
+      //  WindowGroup {
+        //    ContentView()
+       // }
+    //}
+//}

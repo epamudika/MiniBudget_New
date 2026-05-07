@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0226C64D2F9DD89F00B1F1A8 /* MiniBudget_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniBudget_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0226C64D2F9DD89F00B1F1A8 /* MiniBudget_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MiniBudget_New.app; path = "/Users/cobsccomp242p-051/ios/MiniBudget_New/build/Debug/MiniBudget_New.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				0226C64F2F9DD89F00B1F1A8 /* MiniBudget_New */,
-				0226C64E2F9DD89F00B1F1A8 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0226C64E2F9DD89F00B1F1A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0226C64D2F9DD89F00B1F1A8 /* MiniBudget_New.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +72,7 @@
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					0226C64C2F9DD89F00B1F1A8 = {
-						CreatedOnToolsVersion = 26.4;
+						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
@@ -95,7 +86,7 @@
 			mainGroup = 0226C6442F9DD89F00B1F1A8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0226C64E2F9DD89F00B1F1A8 /* Products */;
+			productRefGroup = 0226C6442F9DD89F00B1F1A8;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -260,7 +251,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.3;
@@ -277,7 +268,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
+				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
@@ -302,7 +293,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.3;
@@ -319,7 +310,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
+				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
 		};
